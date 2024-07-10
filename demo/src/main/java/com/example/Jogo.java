@@ -119,7 +119,7 @@ public class Jogo {
     }
 
     public static void GuardarRanking(String[] newData) throws IOException {
-        String filePath = "/home/lucas/Documentos/GAME_DADOS/demo/src/main/java/com/example/ranking.csv";
+        String filePath = "C:\\Users\\Carlos Magno\\Documents\\Jogo_dados_POO\\demo\\src\\main\\java\\com\\example\\ranking.csv";
 
         List<String> lines = Files.readAllLines(Paths.get(filePath));
         List<String[]> rows = new ArrayList<>();
@@ -157,7 +157,7 @@ public class Jogo {
     }
     
     public void readCsv() throws IOException {
-        String filePath = "/home/lucas/Documentos/GAME_DADOS/demo/src/main/java/com/example/ranking.csv";
+        String filePath = "C:\\Users\\Carlos Magno\\Documents\\Jogo_dados_POO\\demo\\src\\main\\java\\com\\example\\ranking.csv";
         List<String> lines = Files.readAllLines(Paths.get(filePath));
 
         // Verifica se o arquivo está vazio
